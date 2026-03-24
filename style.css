@@ -67,6 +67,10 @@
     animation: entry 500ms ease-in-out;
 }
 
+.highlight2{
+    background-color: red;
+}
+
 .paragraph-1{
     width: 50%;
     text-align: center;
@@ -87,6 +91,11 @@
     text-align: center;
 }
 
+.btn-primary a{
+    color: white;
+    text-decoration: none;
+}
+
 .btn-primary:hover{
     background-color: darkred;
     transition: 100ms ease-in-out;
@@ -99,7 +108,7 @@
 .slide2{
     background-color: #303638;
     color: white;
-    height: 80vh;
+    height: 90vh;
     width: 95%;
     margin-left: 5%;
     display: flex;
@@ -117,7 +126,7 @@
 
 .about-title{
     font-size: 36px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     padding-top: 20px;
     text-align: center;
 }
@@ -125,6 +134,7 @@
 .about-subtitle{
     font-size: 18px;
     margin-top: 10px;
+    margin-bottom: 30px;
     text-align: center;
     width: auto;
     color: rgb(162,162,162);
@@ -134,22 +144,40 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 90px;
+    gap: 100px;
     width: 80%;
     margin-top: 40px;
 }
 
 .about-card{
     background-color: #3a3f42;
-    width: auto;
-    height: auto;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
     border-radius: 10px;
 }
 
 .about-content img{
-    width: 300px;
+    width: 400px;
     height: auto;
     border-radius: 10px;
+}
+
+.about-card-content{
+    padding-top: 5%;
+    text-align: center;
+}
+
+.sub-title{
+    color: rgb(162,162,162);
+    font-weight: 100;
+}
+
+.cut-text{
+    padding-top: 20px;
 }
 
 .about-paragraph{
